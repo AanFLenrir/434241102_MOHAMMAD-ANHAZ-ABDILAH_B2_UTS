@@ -1,0 +1,34 @@
+name: e_ticketing_helpdesk
+description: Aplikasi mobile E-Ticketing Helpdesk
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  dio: ^5.4.0
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.5
+  intl: ^0.18.1
+  google_fonts: ^6.1.0
+  flutter_native_splash: ^2.3.8
+  flutter_lints: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash_logo.png
+  android: true
+  ios: true
