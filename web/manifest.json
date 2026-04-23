@@ -1,6 +1,6 @@
 {
-    "name": "e_ticketing_helpdesk",
-    "short_name": "e_ticketing_helpdesk",
+    "name": "eticketing_app",
+    "short_name": "eticketing_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
